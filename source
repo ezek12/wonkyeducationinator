@@ -61,7 +61,7 @@
   }
   evalcontainer > evaloutput > evaloutputentry.EVALWARN {
     background: #FFEB3B;
-    color: black;
+    color: red;
   }
   evalcontainer > evaloutput > evaloutputentry.EVALSTRING {
     color: #FFEB3B;
@@ -79,7 +79,7 @@
     background: #f44336;
   }
   evalcontainer > evaloutput > evaloutputentry.EVALWARN.EVALSTRING {
-    color: black;
+    color: red;
   }
   evalcontainer > evaloutput > evaloutputentry.EVALLOG::before {
     content: "";
